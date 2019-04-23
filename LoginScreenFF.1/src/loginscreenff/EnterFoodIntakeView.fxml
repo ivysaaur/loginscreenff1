@@ -12,7 +12,7 @@
 <AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="foodintake.EnterFoodIntakeViewController">
    <children>
       <Button fx:id="submitButton" layoutX="649.0" layoutY="458.0" mnemonicParsing="false" onAction="#handleNewEntry" text="Submit" />
-      <Button fx:id="backButton" layoutX="201.0" layoutY="155.0" mnemonicParsing="false" text="Back" />
+      <Button fx:id="backButton" layoutX="195.0" layoutY="133.0" mnemonicParsing="false" text="Back" />
       <DatePicker fx:id="dateField" layoutX="348.0" layoutY="382.0" />
       <Label layoutX="422.0" layoutY="365.0" text="Date" />
       <Label layoutX="410.0" layoutY="313.0" prefHeight="17.0" prefWidth="62.0" text="Calories" />
@@ -37,5 +37,7 @@
             </ImageView>
          </children>
       </Pane>
+      <AnchorPane prefHeight="550.0" prefWidth="174.0" style="-fx-background-color: #3D4956;" />
+      <AnchorPane layoutX="5.0" prefHeight="111.0" prefWidth="800.0" style="-fx-background-color: #3D4956;" />
    </children>
 </AnchorPane>

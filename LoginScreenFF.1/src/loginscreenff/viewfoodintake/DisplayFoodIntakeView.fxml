@@ -11,7 +11,7 @@
 <AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="foodintake.viewfoodintake.DisplayFoodIntakeViewController">
    <children>
       <Button fx:id="deleteButton" layoutX="665.0" layoutY="477.0" mnemonicParsing="false" onAction="#handleDelete" text="Delete" />
-      <Button fx:id="backButton" layoutX="44.0" layoutY="26.0" mnemonicParsing="false" text="Back" />
+      <Button fx:id="backButton" layoutX="192.0" layoutY="134.0" mnemonicParsing="false" text="Back" />
       <TableView fx:id="foodIntakeTable" layoutX="315.0" layoutY="178.0" prefHeight="265.0" prefWidth="333.0">
         <columns>
           <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
@@ -35,5 +35,7 @@
             </ImageView>
          </children>
       </Pane>
+      <AnchorPane prefHeight="111.0" prefWidth="800.0" style="-fx-background-color: #3D4956;" />
+      <AnchorPane layoutY="5.0" prefHeight="550.0" prefWidth="174.0" style="-fx-background-color: #3D4956;" />
    </children>
 </AnchorPane>
