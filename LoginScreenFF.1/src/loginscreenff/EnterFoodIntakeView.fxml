@@ -8,16 +8,16 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="foodintake.EnterFoodIntakeViewController">
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="foodintake.EnterFoodIntakeViewController">
    <children>
-      <Button fx:id="submitButton" layoutX="468.0" layoutY="305.0" mnemonicParsing="false" onAction="#handleNewEntry" text="Submit" />
+      <Button fx:id="submitButton" layoutX="649.0" layoutY="458.0" mnemonicParsing="false" onAction="#handleNewEntry" text="Submit" />
       <Button fx:id="backButton" layoutX="54.0" layoutY="70.0" mnemonicParsing="false" text="Back" />
-      <DatePicker fx:id="dateField" layoutX="203.0" layoutY="231.0" />
-      <Label layoutX="277.0" layoutY="214.0" text="Date" />
-      <Label layoutX="265.0" layoutY="162.0" prefHeight="17.0" prefWidth="62.0" text="Calories" />
-      <TextField fx:id="caloriesField" layoutX="203.0" layoutY="179.0" prefHeight="27.0" prefWidth="194.0" />
-      <TextField fx:id="foodNameField" layoutX="203.0" layoutY="119.0" prefHeight="27.0" prefWidth="194.0" />
-      <Label layoutX="260.0" layoutY="97.0" prefHeight="17.0" prefWidth="72.0" text="Food Name" />
+      <DatePicker fx:id="dateField" layoutX="348.0" layoutY="382.0" />
+      <Label layoutX="422.0" layoutY="365.0" text="Date" />
+      <Label layoutX="410.0" layoutY="313.0" prefHeight="17.0" prefWidth="62.0" text="Calories" />
+      <TextField fx:id="caloriesField" layoutX="348.0" layoutY="330.0" prefHeight="27.0" prefWidth="194.0" />
+      <TextField fx:id="foodNameField" layoutX="348.0" layoutY="270.0" prefHeight="27.0" prefWidth="194.0" />
+      <Label layoutX="405.0" layoutY="248.0" prefHeight="17.0" prefWidth="72.0" text="Food Name" />
       <ImageView fitHeight="94.0" fitWidth="91.0" layoutX="365.0">
          <image>
             <Image url="@Icon_FoodTracker.png" />

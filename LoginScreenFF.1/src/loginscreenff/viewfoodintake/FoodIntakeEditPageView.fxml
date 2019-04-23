@@ -11,9 +11,9 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="foodintake.viewfoodintake.FoodIntakeEditPageEditController">
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="foodintake.viewfoodintake.FoodIntakeEditPageEditController">
    <children>
-      <GridPane layoutX="99.0" layoutY="87.0" prefHeight="205.0" prefWidth="385.0">
+      <GridPane layoutX="262.0" layoutY="223.0" prefHeight="205.0" prefWidth="385.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="183.0" minWidth="10.0" prefWidth="173.0" />
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="182.0" minWidth="10.0" prefWidth="182.0" />
@@ -33,7 +33,7 @@
          </children>
       </GridPane>
       <Button fx:id="bcakButton" layoutX="59.0" layoutY="47.0" mnemonicParsing="false" text="Back" />
-      <Button fx:id="okButton" layoutX="472.0" layoutY="331.0" mnemonicParsing="false" text="OK" />
+      <Button fx:id="okButton" layoutX="677.0" layoutY="468.0" mnemonicParsing="false" text="OK" />
       <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="112.0" layoutY="-50.0">
          <image>
             <Image url="@../Logo_myFitnessFriend.png" />
