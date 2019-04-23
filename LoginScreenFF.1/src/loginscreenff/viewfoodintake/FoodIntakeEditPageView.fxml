@@ -9,6 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
 <AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="foodintake.viewfoodintake.FoodIntakeEditPageEditController">
@@ -39,15 +40,19 @@
             <Image url="@../Logo_myFitnessFriend.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="88.0" fitWidth="88.0" layoutX="375.0" layoutY="3.0">
-         <image>
-            <Image url="@../Icon_FoodTracker.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="153.0" layoutY="34.0">
-         <image>
-            <Image url="@../Logo_myFitnessFriend.png" />
-         </image>
-      </ImageView>
+      <Pane layoutX="279.0" layoutY="127.0">
+         <children>
+            <ImageView fitHeight="88.0" fitWidth="88.0" layoutX="222.0">
+               <image>
+                  <Image url="@../Icon_FoodTracker.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="200.0" layoutY="31.0">
+               <image>
+                  <Image url="@../Logo_myFitnessFriend.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
    </children>
 </AnchorPane>
